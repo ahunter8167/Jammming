@@ -5,6 +5,40 @@ import './SearchBar';
 import './SearchResults';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+    this.state.searchResults = [
+      {
+        name: 'Better With You',
+        artist: 'Michl',
+        album: 'Better With You',
+        id: '1'
+      },
+
+      {
+        name: 'Tension',
+        artist: 'Fergie',
+        album: 'Double Dutchess',
+        id: '2'
+      },
+
+      {
+        name: 'River',
+        artist: 'Ibeyi',
+        album: 'Ibeyi',
+        id: '3'
+      },
+
+      {
+        name: 'Can\'t Sleep Love',
+        artist: 'Pentatonix',
+        album: 'Pentatonix(Delux Version)',
+       id: '4'
+      }
+    ];
+
   render() {
     return (
       <div>
