@@ -77,14 +77,14 @@ class App extends React.Component {
     });
   }
 
-  updatePlaylistName(argument) {
+  updatePlaylistName(name) {
     this.setState({
       playlistName: name
     });
   }
 
   savePlaylist() {
-    const trackURIs = playlistTracks;
+    const trackURIs = this.state.playlistTracks;
   }
 
   search(term) {
